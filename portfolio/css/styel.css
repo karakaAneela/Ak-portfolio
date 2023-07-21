@@ -1,0 +1,68 @@
+.bannerBgImage{
+height: 100vh;
+background: url("/images/bimage.jpg");
+background-size: cover;
+font-family: Copperplate, Papyrus, fantasy;
+}
+
+.bannerText {
+ text-align: center;
+ position: absolute;
+top: 25%;
+left: 30%;
+  transition: translate(-40%, -40% ) ;
+  color: rgb(169, 204, 234);
+  font-family: Copperplate, Papyrus, fantasy;
+}
+.bannerTitle{
+    font-size: 3rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.zero{
+   background-color: #b8d6e1b3;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   
+}
+.navbar-brand{
+    font-family: Copperplate, Papyrus, fantasy;
+    color: #557f9b;
+}
+
+.para{
+    margin: 5%;
+}
+.card{
+    background-color:#557f9b;
+    cursor:pointer;
+    margin: 5%;
+
+}
+
+.card:hover{
+    background-color:#54a2ac;
+    border: 10px ; 
+    border-color:transparent; 
+}
+
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.card img img-fluid:hover{
+    border: 2px ; solid:#59dada; 
+}
+
+.nav-link{
+    color:#557f9b;
+    
+}
+
+.text-center{
+  
+    color: rgb(3, 11, 18);
+}
+/* #32a4e1*/
