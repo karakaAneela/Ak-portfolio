@@ -6,6 +6,10 @@
     <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 <link rel="stylesheet" href="/css/styel.css">
 </head>
   <body class="zero">
@@ -13,16 +17,16 @@
   <!-- ! Navbar Start -->
 
 
-  <nav class="navbar navbar-expand-lg fixed-top " style="background-color:#060525;">
+  <nav class="navbar navbar-expand-lg fixed-top nf " style="background-color:#060525;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#" ><b>AK</b> Portfolio </a>
+      <a class="navbar-brand animate__animated animate__flash animate__slower	20s animate__infinite" href="#" ><b>AK</b> Portfolio </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse  " id="navbarNav">
         <ul class="navbar-nav ms-auto ">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" style="color: #557f9b;;" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" style="color:rgb(193, 210, 221);" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#About">About</a>
@@ -58,8 +62,8 @@
 
         <div class="row">
             <div class="carousel slide bannerText">
-                <h2 class="bannerTitle">Aneela Karaka</h2>
-                <p class="bannerDesc">A Web Developer</p>
+                <h2 class="bannerTitle animate__animated animate__fadeInDown">Aneela Karaka</h2>
+                <p class="bannerDesc animate__animated animate__fadeInRight"> A Student & Web developer </p>
 
             </div>
         </div>
@@ -70,33 +74,32 @@
 
   <!-- ! about start -->
 
-<section id="About">
-    <div class="container">
-        <h1 class="text-center"> About Me</h1>
-       <div class="col-md-12">
-        <p class="para"> Hello, I'm Aneela, a passionate and experienced web developer dedicated to crafting exceptional digital experiences.
+<section id="About" data-aos="zoom-out-down">
+  
+    <div class="container ">
+        <h1 class="text-center animate__animated animate__pulse  animate__infinite "> About Me</h1>
+        
+         
+        <h2 class="hero text-center"> Hello, I'm Aneela, a Computer Science student.</h2>
+        <div class="col-md-12">
+        <p class="para"> I'm a passionate web developer dedicated to crafting exceptional digital experiences.
           With a strong background in front-end and back-end development, 
          I thrive on bringing ideas to life through elegant and functional websites.</p>
 
-        <div class="row">
-          <div class="col-md-6">
-            <ul>
-                <li> Name: Anela Karaka</li>
-                <li> Occupation: Student</li>
-                <li> University: JNTUGV</li>
-                <li> Branch: Computer Science</li>
-            </ul>
-          </div> 
-
-          <div class="col-md-6">
-            <ul>
-                <li>Technologies Working On: MERN Stack</li>
-                <li>Projets: <a href="https://en.wikipedia.org/wiki/Twice" target="_blank" rel="noopener noreferrer"
-                        class="text-decoration-none"> Click Here for Projets</a></li>
+        <div class="text-center">
+                  
+                  <h5> <b>Technologies Working On:</b></h5> 
+                  <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Full stack development</li>
+                  <li class="list-group-item">Artificial Intelligence</li>
+                  <li class="list-group-item">Cyber Security</li>
+                  <li class="list-group-item">Machine Learning</li>
+                </ul>
                
-            </ul>
         
         </div>
+        
+      
 
        </div>
 
@@ -106,25 +109,29 @@
        If you're seeking a web developer who can deliver innovative solutions tailored to your specific needs, I would love to discuss your project.Feel free to reach out to me through the contact information provided on this site
      
   </p>
+
 </section>
 
    <!-- ! about end -->
    
    <!-- ! sc start -->
 
-  <section id="Services">
+  <section id="Services" data-aos="zoom-in">
     <div class="container" id="services">
         <br>
         <br>
         <br>
-        <h1 class="text-center" >Services</h1>
+
+        <h1 class="text-center animate__animated " >Services</h1>
+
+
         <br>
         <br>
 
-        <div class="row">
+        <div class="row " >
             <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
+                <div class="card" data-aos="flip-left">
+                    <div class="card-body ">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-window-stack" viewBox="0 0 16 16">
                             <path d="M4.5 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1ZM6 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>
                             <path d="M12 1a2 2 0 0 1 2 2 2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2 2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h10ZM2 12V5a2 2 0 0 1 2-2h9a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1Zm1-4v5a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V8H3Zm12-1V5a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v2h12Z"/>
@@ -135,7 +142,7 @@
                   </div>
             </div>
             <div class="col-md-4">
-                <div class="card">
+                <div class="card" data-aos="flip-up">
                     <div class="card-body">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-window-stack" viewBox="0 0 16 16">
                             <path d="M4.5 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1ZM6 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>
@@ -148,7 +155,7 @@
                   </div>
             </div>
             <div class="col-md-4">
-                <div class="card">
+                <div class="card" data-aos="flip-right">
                     <div class="card-body">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-window-stack" viewBox="0 0 16 16">
                             <path d="M4.5 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1ZM6 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>
@@ -164,7 +171,7 @@
         </div>
         <div class="row">
             <div class="col-md-4">
-                <div class="card">
+                <div class="card" data-aos="flip-left">
                     <div class="card-body">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-window-stack" viewBox="0 0 16 16">
                             <path d="M4.5 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1ZM6 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>
@@ -177,7 +184,7 @@
             </div>
             
             <div class="col-md-4">
-                <div class="card">
+                <div class="card" data-aos="flip-up">
                     <div class="card-body">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-window-stack" viewBox="0 0 16 16">
                             <path d="M4.5 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1ZM6 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>
@@ -189,7 +196,7 @@
                   </div>                  
             </div>
             <div class="col-md-4">
-                <div class="card">
+                <div class="card" data-aos="flip-right">
                    <div class="card-body">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-window-stack" viewBox="0 0 16 16">
                         <path d="M4.5 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1ZM6 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>
@@ -207,46 +214,49 @@
    <!-- ! sc end -->
 
    <!-- projects start -->
-<section id="Projets">
+<section id="Projets" data-aos="zoom-out-down">
+
   <div class="container"><br><br>
-      <h1 class="text-center">Projets</h1><br>
+
+      <h1 class="text-center animate__animated ">Projets</h1><br>
+
       <div class="row">
           <div class="col-md-6">
-              <div class="card mb-3">
+              <div class="card mb-3" data-aos="fade-up-right">
                   <img src="./images/pf.png" class="card-img-top" alt="portfolio">
                   <div class="card-body">
                     <h5 class="card-title">portfolio </h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">This is my own Portfolio site that i created with the help of html, css, bootstrap.</p>
                     
                   </div>
                 </div>
           </div>
           <div class="col-md-6">
-              <div class="card mb-3">
+              <div class="card mb-3" data-aos="fade-up-left">
                   <img src="./images/sg2.png" class="card-img-top" alt="sheetgost">
                   <div class="card-body">
-                    <h5 class="card-title">Sheetgost</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title">Sheetgost </h5>
+                    <p class="card-text">This is a music band offical page that i created with the help of html, css, bootstrap.</p>
                     
                   </div>
                 </div> 
           </div>
           <div class="col-md-6">
-              <div class="card mb-3">
+              <div class="card mb-3" data-aos="fade-down-right">
                   <img src="./images/to.png" class="card-img-top " alt="twice">
                   <div class="card-body">
-                    <h5 class="card-title">Twice</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title">Twice Fanpage</h5>
+                    <p class="card-text">This is a Fan page of the k-pop girl group Twice that i created with the help of html, css, bootstrap.</p>
                     
                   </div>
                 </div> 
           </div>
-          <div class="col-md-6">
-              <div class="card mb-3">
-                  <img src="./images/cd.webp" class="card-img-top" alt="...">
+          <div class="col-md-6" data-aos="fade-down-left">
+              <div class="card mb-3" >
+                <img src="./images/c4.png" class="card-img-top" alt="what do u think">                 
                   <div class="card-body">
-                    <h5 class="card-title">idk</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title">Aesthetic Gaze</h5>
+                    <p class="card-text">This is a photography blog page that i created with the help of html, css, bootstrap.</p>
                     
                   </div>
                 </div> 
@@ -260,10 +270,10 @@
 
 <!-- projects end-->
         <!-- contact start -->
-<section id="contact">
+<section id="contact" data-aos="zoom-out">
   <div class="container-fluid">
       <br><br>
-      <h1 class="text-center">Connect with me!!</h1>
+      <h1 class="text-center animate__animated animate__pulse  animate__infinite ">Connect with me!!</h1>
       <br>
 
       <div class="row">
@@ -287,7 +297,7 @@
                       <textarea class="form-control" id="textArea" rows="3"></textarea>
                     </div>
                     <div class="col-auto">
-                      <button type="submit" class="btn btn-outline-info">Submit</button>
+                      <button type="submit" class="button button1">Submit</button>
                     </div>
                   </form>
               </form>
@@ -312,7 +322,7 @@
           <i class="bi bi-linkedin bIcon"></i></a>&nbsp;&nbsp;
           <a href="https://twitter.com/honeykaraka" target="_blank" rel="noopener noreferrer">
           <i class="bi  bi-twitter bIcon"></i></a>&nbsp;&nbsp;
-          <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/anee_6121" target="_blank" rel="noopener noreferrer">
           <i class="bi bi-instagram bIcon"></i></a>&nbsp;&nbsp;
           <p style="color: darkgray;">&copy;ANEELA Karaka 2023. All rights reserved.</p>
       </div>
@@ -323,5 +333,9 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

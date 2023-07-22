@@ -1,3 +1,20 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Edu+SA+Beginner&family=Kalam&family=Shadows+Into+Light&display=swap');
+
+.nf{
+  
+  font-family: 'Edu SA Beginner', cursive;
+
+}
+
+.hero{
+  font-family: 'Caveat', cursive;
+  border: 10px ; 
+  margin: 5%;
+  
+}
+
 .bannerBgImage{
 height: 100vh;
 background: url("/images/bimage.jpg");
@@ -11,8 +28,10 @@ font-family: Copperplate, Papyrus, fantasy;
 top: 25%;
 left: 30%;
   transition: translate(-40%, -40% ) ;
-  color: rgb(169, 204, 234);
-  font-family: Copperplate, Papyrus, fantasy;
+  color: rgb(190, 212, 233);
+  font-family: 'Caveat', cursive;
+font-family: 'Shadows Into Light', cursive;
+  /*font-family: Copperplate, Papyrus, fantasy;*/
 }
 .bannerTitle{
     font-size: 3rem;
@@ -21,17 +40,19 @@ left: 30%;
     font-size: 2rem;
 }
 .zero{
-   background-color: #b8d6e1b3;
+  
+   background-color: #eef4f6b3;
    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
    
 }
 .navbar-brand{
     font-family: Copperplate, Papyrus, fantasy;
-    color: #557f9b;
+    color: rgb(193, 210, 221);
 }
 
 .para{
     margin: 5%;
+    font-size: 120%;
 }
 .card{
     background-color:#557f9b;
@@ -57,7 +78,7 @@ left: 30%;
 }
 
 .nav-link{
-    color:#557f9b;
+    color:rgb(193, 210, 221);
     
 }
 
@@ -65,4 +86,33 @@ left: 30%;
   
     color: rgb(3, 11, 18);
 }
+
+
+  .button {
+    border-radius: 12px;
+    background-color: #060525; 
+    border: none;
+    color: white;
+    padding: 12px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #060525;
+  }
+  
+  .button1:hover {
+    background-color: #060525;
+    color: white;
+  }
+  
+
 /* #32a4e1*/
